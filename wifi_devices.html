@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearby WiFi Devices</title>
+</head>
+<body>
+    <h1>Nearby WiFi Devices</h1>
+    <ul>
+    {% for device in wifi_devices %}
+        <li>{{ device }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
