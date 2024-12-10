@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WiFi Cracker</title>
+</head>
+<body>
+    <h1>WiFi Cracker</h1>
+    <form action="/scan_wifi_devices" method="post">
+        <input type="submit" value="Scan for nearby WiFi devices">
+    </form>
+    <form action="/crack_wifi_password" method="post">
+        <label for="ssid">SSID:</label>
+        <input type="text" id="ssid" name="ssid"><br><br>
+        <label for="bssid">BSSID:</label>
+        <input type="text" id="bssid" name="bssid"><br><br>
+        <input type="submit" value="Crack WiFi password">
+    </form>
+</body>
+</html>
