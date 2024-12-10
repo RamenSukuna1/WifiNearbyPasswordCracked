@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress</title>
+</head>
+<body>
+    <h1>Progress</h1>
+    <div id="progress-bar" style="width: {{ progress }}%"></div>
+    <script>
+        var progress = {{ progress }};
+        var progressBar = document.getElementById("progress-bar");
+        progressBar.style.width = progress + "%";
+    </script>
+</body>
+</html>
